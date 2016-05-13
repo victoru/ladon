@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	rdb "github.com/dancannon/gorethink"
 	"github.com/ory-am/common/pkg"
 	"github.com/ory-am/ladon"
 	"github.com/ory-am/ladon/memory"
 	"github.com/ory-am/ladon/postgres"
-	"github.com/ory-am/ladon/rethinkdb"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/victoru/ladon/rethinkdb"
+	rdb "gopkg.in/dancannon/gorethink.v1"
 	"gopkg.in/ory-am/dockertest.v2"
 )
 

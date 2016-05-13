@@ -6,7 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	rdb "github.com/dancannon/gorethink"
+	rdb "gopkg.in/dancannon/gorethink.v1"
+
 	"github.com/go-errors/errors"
 	"github.com/ory-am/common/compiler"
 	"github.com/ory-am/common/pkg"
